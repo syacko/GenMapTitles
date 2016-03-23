@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Bitnami MAPP 5.5.31">
+  <component name="PublishConfigData" serverName="myBitnami">
     <serverData>
-      <paths name="Bitnami MAPP 5.5.31">
+      <paths name="myBitnami">
         <serverdata>
           <mappings>
-            <mapping deploy="/GenMapTitles/" local="$PROJECT_DIR$" web="/GenMapTitles/" />
+            <mapping deploy="/opt/lappstack-5.6.18-1/apache2/htdocs" local="$PROJECT_DIR$" web="" />
           </mappings>
         </serverdata>
       </paths>

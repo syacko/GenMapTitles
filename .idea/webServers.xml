@@ -2,8 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c4cd0f8a-3826-4a49-a8b2-387e56af75c5" name="Bitnami MAPP 5.5.31" url="http://localhost:8080">
-        <fileTransfer mountedRoot="/Applications/mappstack-5.5.31-0/apache2/htdocs" accessType="MOUNT" />
+      <webServer id="a002ec4d-23b8-4d81-8e78-589651da8c90" name="myBitnami" url="http://mybitnami">
+        <fileTransfer host="mybitnami" port="22" accessType="SFTP" password="dff3dfc3dfcedfc3dfcbdfc5df9adf9b" username="syacko">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
       </webServer>
     </option>
   </component>
