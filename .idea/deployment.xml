@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="myBitnami">
+  <component name="PublishConfigData" serverName="myBitnami" uploadOnCheckin="a002ec4d-23b8-4d81-8e78-589651da8c90">
     <serverData>
       <paths name="myBitnami">
         <serverdata>
           <mappings>
-            <mapping deploy="/opt/lappstack-5.6.18-1/apache2/htdocs" local="$PROJECT_DIR$" web="" />
+            <mapping deploy="/opt/lappstack-5.6.18-1/apache2/htdocs" local="$PROJECT_DIR$/../GenMapTiles" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="myBitnami" />
   </component>
 </project>
